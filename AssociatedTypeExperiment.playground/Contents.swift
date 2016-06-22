@@ -59,7 +59,7 @@ struct GetFriendsResponse: Response {}
  really this there is no amibiguity because I specify that this is a GetFriendsUseCaseType so the associated type
  is explicit.
  
- My question is why can't I do this? Can you think of a theoretical situation where this is too ambiguous to know the type at compile-time?
+ My question is why can't I do this? Can you think of a theoretical situation where this is too ambiguous to know the type at compile-time or is this just a missing feature of swift?
  */
 struct SomeViewModel {
     let getFriendsUseCase: GetFriendsUseCaseType
